@@ -1,0 +1,131 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 41391748191,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TempConverterStepdef.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Centigrade to Fahrenheit Temparature Converter",
+        "description": "",
+        "id": "develope-a-centigrade-to-fahrenheit;centigrade-to-fahrenheit-temparature-converter;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 7567853208,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TempConverterStepdef.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4440764271,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on \"Reset\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Reset\"",
+                  "offset": 9
+                }
+              ],
+              "location": "TempConverterStepdef.click_on(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4126669382,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter the temparature 20.00 in Centigrade",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20.00",
+                  "offset": 22
+                }
+              ],
+              "location": "TempConverterStepdef.enter_the_temparature_in_Centigrade(Double)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 240048893,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on \"Convert\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Convert\"",
+                  "offset": 9
+                }
+              ],
+              "location": "TempConverterStepdef.click_on(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 353130132,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the temparature should be equal to 68.00 Fahrenheit",
+            "match": {
+              "arguments": [
+                {
+                  "val": "68.00",
+                  "offset": 35
+                }
+              ],
+              "location": "TempConverterStepdef.the_temparature_should_be_equal_to_Fahrenheit(Double)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f1"
+          }
+        ]
+      }
+    ],
+    "name": "Develope a Centigrade to Fahrenheit",
+    "description": "\tTemparature Converter",
+    "id": "develope-a-centigrade-to-fahrenheit",
+    "keyword": "Feature",
+    "uri": "TempConverter.feature",
+    "tags": [
+      {
+        "name": "@f1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
